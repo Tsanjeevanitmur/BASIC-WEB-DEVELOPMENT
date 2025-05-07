@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Super Cars List</title>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-image: url('chiron-super-sport-300-og.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #d32f2f;
+      margin-bottom: 40px;
+    }
+    .car p {
+      color: #ffffff;
+    }
+
+    .car img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 8px;
+      display: block;
+      margin: 0 auto 15px;
+    }
+
+    .car h2 {
+      color: #0077cc;
+      margin-bottom: 10px;
+    }
+
+    .button {
+      display: block;
+      width: 200px;
+      margin: 40px auto 0;
+      padding: 12px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>SUPER CAR'S LIST</h1>
+
+  <div class="car">
+    <h2>1. Bugatti Chiron Super Sport</h2>
+    <img src="C:\Users\sanje\Desktop\apex\task\chiron-super-sport-300-og.jpg" alt="Bugatti Chiron">
+    <p>A quad-turbocharged 8.0L W16 monster that reaches over 300 mph with unmatched elegance and power.</p>
+    <button onclick="window.location.href='https://www.bugatti.com'">Click Me</button>
+  </div>
+
+  <div class="car">
+    <h2>2. Lamborghini Aventador SVJ</h2>
+    <img src="C:\Users\sanje\Desktop\apex\task\aventador_svj_s2_m.webp" alt="Lamborghini Aventador SVJ">
+    <p>A V12-powered beast with aggressive aero design and blistering track performance.</p>
+    <button onclick="window.location.href='https://www.lamborghini.com/en-en/models/aventador/aventador-svj'">Click Me</button>  
+  </div>
+
+  <div class="car">
+    <h2>3. Ferrari SF90 Stradale</h2>
+    <img src="C:\Users\sanje\Desktop\apex\task\Ferrari SF90 Stradale.jpg" alt="Ferrari SF90">
+    <p>Ferrari’s plug-in hybrid supercar that delivers 986 horsepower and razor-sharp dynamics.</p>
+    <button onclick="window.location.href='https://www.ferrari.com/en-EN/auto/sf90-stradale'">Click Me</button>
+  </div>
+
+  <div class="car">
+    <h2>4. McLaren P1</h2>
+    <img src="C:\Users\sanje\Desktop\apex\task\McLaren_P1.jpg" alt="McLaren P1">
+    <p>A hybrid hypercar blending electric and gas for extreme performance and futuristic styling.</p>
+    <button onclick="window.location.href='https://cars.mclaren.com/en/legacy/mclaren-p1'">Click Me</button>
+  </div>
+
+  <div class="car">
+    <h2>5. Porsche 918 Spyder</h2>
+    <img src="C:\Users\sanje\Desktop\apex\task\Porsche 918 Spyder.webp" alt="Porsche 918">
+    <p>One of the first hybrid hypercars, offering over 880 hp and remarkable track handling.</p>
+    <button onclick="window.location.href='https://www.porsche.com/usa/models/918/918-spyder/'">Click Me</button>
+  </div>
+
+  <div class="car">
+    <h2>6. Koenigsegg Jesko</h2>
+    <img src="C:\Users\sanje\Desktop\apex\task\Koenigsegg Jesko.png" alt="Koenigsegg Jesko">
+    <p>Swedish engineering at its finest — 1600+ hp with track and top-speed versions available.</p>
+    <button onclick="window.location.href='https://www.koenigsegg.com/'">Click Me</button>
+  </div>
+
+  <div class="car">
+    <h2>7. Pagani Huayra BC</h2>
+    <img src="C:\Users\sanje\Desktop\apex\task\Pagani Huayra BC.avif" alt="Pagani Huayra">
+    <p>An art piece on wheels powered by a Mercedes-AMG V12, with intricate craftsmanship.</p>
+    <button onclick="window.location.href='https://www.pagani.com/huayra-bc/'">Click Me</button>
+  </div>
+
+  <div class="car">
+    <h2>8. Aston Martin Valkyrie</h2>
+    <img src="C:\Users\sanje\Desktop\apex\task\Aston Martin Valkyrie.jpg" alt="Aston Martin Valkyrie">
+    <p>A road-legal F1-inspired car built in collaboration with Red Bull Racing.</p>
+    <button onclick="window.location.href='https://www.astonmartin.com/en/models/valkyrie'">Click Me</button>
+  </div>
+
+  <div class="car">
+    <h2>9. Rimac Nevera</h2>
+    <img src="C:\Users\sanje\Desktop\apex\task\Rimac Nevera.avif" alt="Rimac Nevera">
+    <p>Electric hypercar with 1,914 hp and record-breaking acceleration times.</p>
+    <button onclick="window.location.href='https://www.rimac-automobili.com/nevera/'">Click Me</button>
+  </div>
+
+  <div class="car">
+    <h2>10. Lotus Evija</h2>
+    <img src="C:\Users\sanje\Desktop\apex\task\Lotus Evija.jpg" alt="Lotus Evija">
+    <p>Lotus’ all-electric hypercar aiming for lightweight performance and over 2,000 hp.</p>
+    <button onclick="window.location.href='https://www.lotuscars.com/en-GB/model/evija/'">Click Me</button>
+  </div>
+
+  <button class="button" onclick="showBuyAlert()">Buy</button>
+
+  <script>
+    function showBuyAlert() {
+      alert("Thank you for your interest! Our sales team will contact you shortly.");
+    }
+  </script>
+
+</body>
+</html>
